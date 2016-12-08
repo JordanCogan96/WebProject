@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<G4S>
+	<CONSOLE id="PS4">
+		<GAME>
+			<name>Watch_Dogs 2</name>
+			<genre>Action</genre>
+			<price>40</price>
+      <platform>Playstation</platform>
+		</GAME>
+    <GAME>
+			<name>Battlefield 1</name>
+			<genre>Action</genre>
+			<price>40</price>
+      <platform>Playstation</platform>
+		</GAME>
+    <GAME>
+			<name>FIFA 17</name>
+			<genre>Action</genre>
+			<price>45</price>
+      <platform>Playstation</platform>
+		</GAME>
+    <GAME>
+			<name>Grand Theft Auto 5</name>
+			<genre>Action</genre>
+			<price>30</price>
+      <platform>Playstation</platform>
+		</GAME>
+    <GAME>
+      <name>Minecraft</name>
+      <genre>Action</genre>
+      <price>10</price>
+      <platform>Playstation</platform>
+    </GAME>
+	</CONSOLE>
+
+  <CONSOLE id="XBOX ONE">
+    <GAME>
+      <name>Watch_Dogs 2</name>
+      <genre>Action</genre>
+      <price>40</price>
+      <platform>Xbox One</platform>
+    </GAME>
+    <GAME>
+      <name>Battlefield 1</name>
+      <genre>Action</genre>
+      <price>40</price>
+      <platform>Xbox One</platform>
+    </GAME>
+    <GAME>
+      <name>FIFA 17</name>
+      <genre>Action</genre>
+      <price>45</price>
+      <platform>Xbox One</platform>
+    </GAME>
+    <GAME>
+      <name>Grand Theft Auto 5</name>
+      <genre>Action</genre>
+      <price>30</price>
+      <platform>Xbox One</platform>
+    </GAME>
+    <GAME>
+      <name>Minecraft</name>
+      <genre>Action</genre>
+      <price>10</price>
+      <platform>Xbox One</platform>
+    </GAME>
+  </CONSOLE>
+
+  <CONSOLE id="STEAM">
+    <GAME>
+      <name>Watch_Dogs 2</name>
+      <genre>Action</genre>
+      <price>40</price>
+      <platform>Steam</platform>
+    </GAME>
+    <GAME>
+      <name>Battlefield 1</name>
+      <genre>Action</genre>
+      <price>40</price>
+      <platform>Steam</platform>
+    </GAME>
+    <GAME>
+      <name>FIFA 17</name>
+      <genre>Action</genre>
+      <price>45</price>
+      <platform>Steam</platform>
+    </GAME>
+    <GAME>
+      <name>Grand Theft Auto 5</name>
+      <genre>Action</genre>
+      <price>30</price>
+      <platform>Steam</platform>
+    </GAME>
+    <GAME>
+      <name>Minecraft</name>
+      <genre>Action</genre>
+      <price>10</price>
+      <platform>Steam</platform>
+    </GAME>
+  </CONSOLE>
+</G4S>

@@ -21,6 +21,8 @@
 </script>
 </head>
 <body>
+<div class="wholebody">
+
 
 <div class="empty logo">
 
@@ -29,24 +31,54 @@
  <div class="container">
   <div class="second-nav">
     <ul class="container-nav">
-       <li><button id="Genre" type="button" name="button"> Genre</button></li>
+      <li><button id="Genre" type="button" name="button"> Genre</button></li>
       <li><button id="Platform" type="button" name="button">Platform </button></li>
       <li><button id="All Games" type="button" name="button">All Games</button></li>
+      <li><button id="Sales" type="button" name="button">Sales</button></li>
+      <li><button id="Coming Soon" type="button" name="button">Coming Soon</button></li>
     </ul>
   </div>
 
 
 <!--slider-->
 <div class="bxslider">
-    <img src="img/header1.jpg" title="NOW ON SALE">
-    <img src="img/header2.jpg">
-    <img src="img/header3.jpg">
+    <img src="img/WD2V1.png" title="NOW ON SALE">
+    <img src="img/DISV1.jpg">
+    <img src="img/CODV1.png">
 </div>
 <!--Slider Finished-->
 
-
 </div>
 
+<div class="MainContainer">
+  <div class="item">
+    <img src="GamePics/WD2PS4.jpg" alt="" />
+    <br>
+    <img src="GamePics/WD2XONE.jpg" alt="" />
+    <br>
+    <img src="GamePics/FIFAXONE.jpg" alt="" />
+    <br>
+    <img src="GamePics/FIFAPS4.jpg" alt="" />
+    <br>
+    <img src="GamePics/GTAXONE.jpg" alt="" />
+    <br>
+    <img src="GamePics/GTAPS4.jpg" alt="" />
+    <br>
+    <img src="GamePics/BF1PS4.jpg" alt="" />
+    <br>
+    <img src="GamePics/BF1XONE.jpg" alt="" />
+
+  </div>
+
+
+  <?php
+  $xmlStr = file_get_contents('G4S.xml');
+  $xmlObj = simplexml_load_string($xmlStr);
+  $arrXml = objectsIntoArray($xmlObj);
+  echo $xmlObj;
+  ?>
+</div>
+</div>
 
 
 </body>
