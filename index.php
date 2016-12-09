@@ -32,6 +32,14 @@
   <div class="second-nav">
     <ul class="container-nav">
       <li><button id="Genre" type="button" name="button"> Genre</button></li>
+      <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+              <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+ </div>
+</div>
       <li><button id="Platform" type="button" name="button">Platform </button></li>
       <li><button id="All Games" type="button" name="button">All Games</button></li>
       <li><button id="Sales" type="button" name="button">Sales</button></li>
