@@ -3,6 +3,7 @@
 <head>
   <title>Games 4 Sale</title>
   <link type="text/css" rel="stylesheet" href="css/style.css" media="screen" title="no title">
+  <link type="text/css" rel="stylesheet" href="css/dropdown.css" media="screen" title="no title">
   <style>
       /* Prevents slides from flashing */
     </style>
@@ -29,21 +30,34 @@
 </div>
 <!-- start the content -->
  <div class="container">
-  <div class="second-nav">
-    <ul class="container-nav">
-      <li><button id="Genre" type="button" name="button"> Genre</button></li>
-      <div class="dropdown">
-          <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-              <div id="myDropdown" class="dropdown-content">
-                  <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                      <a href="#">Link 3</a>
- </div>
-</div>
-      <li><button id="Platform" type="button" name="button">Platform </button></li>
-      <li><button id="All Games" type="button" name="button">All Games</button></li>
-      <li><button id="Sales" type="button" name="button">Sales</button></li>
-      <li><button id="Coming Soon" type="button" name="button">Coming Soon</button></li>
+  <div class="dropdown">
+    <ul class="dropbtn">
+      <li><button id="Genre" type="button" name="button"> Genre</button>
+        <div class="dropdown-content">
+            <a href="#">Link1</a>
+            <a href="#">Link2</a>
+            <a href="#">Link3</a>
+          </div></li>
+      <li><button id="Platform" type="button" name="button">Platform </button>        <div class="dropdown-content">
+                  <a href="#">Link1</a>
+                  <a href="#">Link2</a>
+                  <a href="#">Link3</a>
+                </div></li></li>
+      <li><button id="All Games" type="button" name="button">All Games</button>        <div class="dropdown-content">
+                  <a href="#">Link1</a>
+                  <a href="#">Link2</a>
+                  <a href="#">Link3</a>
+                </div></li></li>
+      <li><button id="Sales" type="button" name="button">Sales</button>        <div class="dropdown-content">
+                  <a href="#">Link1</a>
+                  <a href="#">Link2</a>
+                  <a href="#">Link3</a>
+                </div></li></li>
+      <li><button id="Coming Soon" type="button" name="button">Coming Soon</button>        <div class="dropdown-content">
+                  <a href="#">Link1</a>
+                  <a href="#">Link2</a>
+                  <a href="#">Link3</a>
+                </div></li></li>
     </ul>
   </div>
 
