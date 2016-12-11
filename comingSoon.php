@@ -35,7 +35,7 @@
       <li><a href="playstation.php">Playstation</a></li>
       <li><a href="xbox.php">Xbox</a></li>
       <li><a href="allGames.php">All Games</a></li>
-      <li><a href="#">Coming Soon</a></li>
+      <li><a href="comingSoon.php">Coming Soon</a></li>
     </ul>
   </div>
 
