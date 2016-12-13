@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<catalog>
+	<game>
+		<name>GhostRecon Wildlands</name>
+		<date> March 2017 </date>
+		<platform> PLaystation  4 </platform>
+	</game>
+</catalog>
+
+
+<note>
+	<to>Tove</to>
+	<from>Jani</from>
+	<heading>Reminder</heading>
+	<body>Don't forget me this weekend!</body>
+</note>

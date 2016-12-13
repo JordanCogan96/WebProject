@@ -51,18 +51,11 @@
 </div>
 
 <div class="MainContainer">
+<button type="button" onclick="loadXMLDoc()">Get my CD collection</button>
+<br><br>
+<table id="demo"></table>
 
-  <h1> PAGE UNDER CONSTRUCTION!</h1>
 
-  </div>
-
-
-  <?php
-  $xmlStr = file_get_contents('G4S.xml');
-  $xmlObj = simplexml_load_string($xmlStr);
-  $arrXml = objectsIntoArray($xmlObj);
-  echo $xmlObj;
-  ?>
 </div>
 </div>
 
